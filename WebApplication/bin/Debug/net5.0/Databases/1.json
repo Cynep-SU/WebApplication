@@ -1,0 +1,30 @@
+{
+  "days": [
+    {"day of week":0, "lessons": [null, 1, 2],
+      "teachers": [[], [1], [2, 3]]
+    },
+    {"day of week":1, "lessons": [3, 4, 5],
+      "teachers": [[4], [5], [6]]
+    },
+    {"day of week":2, "lessons": [6, 7, 3, 6],
+      "teachers": [[5], [7], [4], [5]]
+    },
+    {"day of week":3, "lessons": [null, null, 8, 9],
+      "teachers": [[], [], [8], [4]]
+    },
+    {"day of week":4, "lessons": [1, 5, 6],
+      "teachers": [[1], [6], [5]]
+    },
+    {"day of week":5, "lessons": [3, 10, 4],
+      "teachers": [[4], [9], [5]]
+    }
+  ],
+  "den_changes":[
+    {"day of week": 1, "lessons": [null, 6, null], 
+      "teachers": [[], [5], []]},
+    {"day of week": 2, "lessons": [null, null, 9, null],
+      "teachers": [[], [], [4], []]},
+    {"day of week": 4, "lessons": [7, null, null],
+      "teachers": [[7], [], []]}
+  ]
+}
